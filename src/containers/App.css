@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+h1{
+  font-family: 'Train One', cursive;
+  color: rgb(111, 109, 109);
+  font-weight: 400;
+  font-size: large;
+}
