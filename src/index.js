@@ -5,13 +5,15 @@ import { Provider } from 'react-redux';
 import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import { searchRobots } from './reducers';
+import { createLogger } from 'redux-logger';
 
 
+const logger = createLogger();
 
 
-const store = createStore(searchRobots);
+const store = createStore(searchRobots, applyMiddleware(logger));
 
 ReactDOM.render(
   <React.StrictMode>
