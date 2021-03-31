@@ -6,8 +6,14 @@
 
 # React project
 
-Playing with hooks and redux.
+## Overview
+ A collection of my friends. Search bar helps me narrowing down my search when looking for a friend in the list.  
 
-#### A collection of my friends. Search bar helps me narrowing down my search when looking for a friend in the list.   
+## Tools
+- React
+- Redux
+- Hooks
+- Tachyons
+- deployed on gh-pages
 
 ### [deployed app](https://luluse.github.io/squirrel/)
